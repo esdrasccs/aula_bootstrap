@@ -22,6 +22,15 @@
     margin: 1em auto;
 }
 
+.listContatos{
+    display: flex;
+    list-style: none;
+}
+
+.listContatos li{
+    margin-right: 25px;
+}
+
 #footer{
 position: absolute;
 bottom: 0px;
