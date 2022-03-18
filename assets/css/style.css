@@ -1,19 +1,24 @@
-.apresentacao{
-    margin:10px auto;
-    max-width:100em;
-    min-height:50em;
+#containerPrincipal{
     background-color: black;
 }
 
-.apresentacao .SobreMin{
-    margin: 100px auto;
-    display: flex;
+#quemsomos{
+    margin: 1em auto;
     background-color: aliceblue;
+    text-align: center;
 }
 
-.SobreMin .selfie-henrique-santos{
-    margin: 3em auto;
-    display: flex;
+#quemsomos h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#quemsomos p{
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.selfie-henrique-santos{
     background-color: blue;
 }
 
