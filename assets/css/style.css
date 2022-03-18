@@ -1,24 +1,38 @@
-#containerPrincipal{
-    background-color: black;
-}
-
 #quemsomos{
     margin: 1em auto;
-    background-color: aliceblue;
-    text-align: center;
 }
 
 #quemsomos h3{
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#quemsomos .container-fluid img{
+    display: block;
+    margin: auto auto 1em auto;
+}
+
 #quemsomos p{
-    padding-top: 50px;
+    margin: auto;
+    width: 50em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#contatos{
+    margin: 1em auto;
+}
 
+#footer{
+position: absolute;
+bottom: 0px;
+padding: auto;
+}
 
-.selfie-henrique-santos{
-    background-color: blue;
+#footer p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
