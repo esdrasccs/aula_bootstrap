@@ -1,0 +1,19 @@
+.apresentacao{
+    margin:10px auto;
+    max-width:100em;
+    min-height:50em;
+    background-color: black;
+}
+
+.apresentacao .SobreMin{
+    margin: 100px auto;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.SobreMin .selfie-henrique-santos{
+    margin: 3em auto;
+    display: flex;
+    background-color: blue;
+}
+
