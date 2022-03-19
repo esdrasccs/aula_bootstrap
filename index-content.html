@@ -2,21 +2,40 @@
 <html lang="pt-br">
     <head>
         <script src="assets/js/jquery-3.6.0.min.js"></script>
-        <script src="assets/js/fun-header-and-footer.js" ></script>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"\>      
+        <script src="assets/js/fun-header-and-footer-and-longTexts.js" ></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"\> 
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css"\>     
     </head>
-    <body>
-        <div id="header"></div>
+    <body class="bg-dark">
+        <div id="header" class="bg-light"></div>
 
-        <section class="apresentacao">
-
-            <section class="SobreMin"> 
-                <img class="selfie-henrique-santos" src="assets/img/henrique-santos-self.jpg" width="150em" height="150em">
+            <section id="quemsomos">
+                <div class="container-fluid bg-dark text text-light">
+                    <h3>Sobre Min</h3>
+                    <img class="rounded-circle" src="assets/img/henrique-santos-self.jpg" width="150em" height="150em">
+                    <div id="SobreMin"></div>
+                </div>    
             </section>
             
-        </section>
-        
+            <section id="contatos">
+                <div class="container-fluid bg-dark text-light">
+                    <h3>Contatos</h3>
+                    <ul class="listContatos">
+                        <li>
+                            <a href="mailto:esdrasccs@hotmail.com" class="text-light">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/esdrasccs" target="_blank" class="text-light">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/esdrasccs/" target="_blank" class="text-light">Linkedin</a> 
+                        </li>
+                    </ul>
+                </div>    
+            </section>
 
-        <div id="footer"></div>
+            <div id="footer" class=" container-fluid bg-dark text-light"></div>
+            
+        
     </body>
 </html>
