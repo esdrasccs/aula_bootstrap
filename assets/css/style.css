@@ -21,6 +21,9 @@ body{
     margin: auto;
     width: 50em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    max-width:900px;
+    
 }
 
 #contatos{
