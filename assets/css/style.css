@@ -1,8 +1,17 @@
-body{
-    padding-bottom: 5%;
-    margin: 0px;
-}
 
+html, body {
+    min-height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-left: auto;
+}
 #quemsomos{
     margin: 5rem auto;
 }
@@ -75,9 +84,6 @@ body{
 }
 
 #footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
     padding-top: 50px;
     padding-bottom: 10px;
 }
